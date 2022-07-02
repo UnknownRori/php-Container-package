@@ -1,6 +1,6 @@
 ### Container Package
 
-A simple container that implement [PSR-11 Container](1)
+A simple container that implement [PSR-11 Container](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-11-container.md)
 
 ### Installation
 
@@ -18,5 +18,3 @@ $container->set('TestContainer', 'instance or something');
 
 var_dump($container->get('TestContainer'));
 ```
-
-[1](https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-11-container.md)
